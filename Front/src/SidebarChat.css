@@ -1,0 +1,25 @@
+.sidebarChat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarChat:hover {
+  background-color: #ebebeb;
+}
+
+.sidebarChat .sidebarChat__info {
+  margin-left: 15px;
+}
+
+.sidebarChat .sidebarChat__info h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+/*# sourceMappingURL=SidebarChat.css.map */

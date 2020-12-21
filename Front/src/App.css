@@ -1,0 +1,21 @@
+.app {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+}
+
+.app .app__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ededed;
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vw;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 4px 20px -6px rgba(2, 1, 1, 0.75);
+          box-shadow: -1px 4px 20px -6px rgba(2, 1, 1, 0.75);
+}
+/*# sourceMappingURL=App.css.map */
